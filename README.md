@@ -54,3 +54,11 @@ Alterações:
 - Removido o cabeçalho da aba “Mais/Governação clínica”.
 - Redesenhados os cards das UCI para evitar desformatação em desktop e telemóvel.
 - Indicador superior simplificado para “Online” / “Offline”.
+
+
+## v0.5.0
+
+Alterações:
+- Removida a aba “Mais”.
+- Removido todo o módulo de Governação clínica / Qualidade / Segurança / Risco da interface.
+- Navegação inferior reduzida para 5 separadores: Início, UCI, Serviços, Docs, Equipa.

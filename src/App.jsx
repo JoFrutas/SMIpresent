@@ -2,7 +2,6 @@ import { useMemo, useState } from "react";
 import {
   DOCUMENTS,
   FORMATION,
-  GOVERNANCE,
   MEDICAL_TEAM,
   PORTFOLIO,
   QUICK_LINKS,
@@ -313,20 +312,6 @@ function Team() {
   );
 }
 
-function More() {
-  return (
-    <section className="screen">
-      {GOVERNANCE.map((block) => (
-        <article className="content-card" key={block.title}>
-          <h3>{block.title}</h3>
-          <ul className="clean-list">
-            {block.items.map((item) => <li key={item}>{item}</li>)}
-          </ul>
-        </article>
-      ))}
-    </section>
-  );
-}
 
 function Detail({ item, type, onBack }) {
   const isUnit = type === "unit";
@@ -433,7 +418,6 @@ export default function App() {
             {screen === "services" ? <ServicesScreen openDetail={openDetail} /> : null}
             {screen === "documents" ? <Documents /> : null}
             {screen === "team" ? <Team /> : null}
-            {screen === "more" ? <More /> : null}
           </>
         )}
       </div>
@@ -449,13 +433,6 @@ export default function App() {
             {item.label}
           </button>
         ))}
-        <button
-          type="button"
-          className={!detail && screen === "more" ? "active" : ""}
-          onClick={() => goTo("more")}
-        >
-          Mais
-        </button>
       </nav>
     </main>
   );
