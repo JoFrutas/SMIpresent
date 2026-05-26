@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="116" fill="#f7faf7"/>
+  <circle cx="256" cy="256" r="168" fill="#2f7d32"/>
+  <path d="M142 180c70-92 196-80 258 8-20-3-46 6-75 30-57 47-115 54-183-38z" fill="#d5a018" opacity=".95"/>
+  <path d="M121 314c72 96 214 100 284 4-50 10-100-7-145-49-45-42-92-57-139 45z" fill="#c43b32" opacity=".92"/>
+  <circle cx="256" cy="256" r="76" fill="#fff"/>
+  <text x="256" y="278" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" fill="#16451e">SMI</text>
+</svg>

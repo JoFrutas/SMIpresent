@@ -1,0 +1,18 @@
+{
+  "name": "SMI ULSLO",
+  "short_name": "SMI",
+  "description": "Aplicação móvel autónoma do Serviço de Medicina Intensiva da ULSLO",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7faf7",
+  "theme_color": "#2f7d32",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
